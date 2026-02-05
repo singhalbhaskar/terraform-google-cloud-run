@@ -24,7 +24,7 @@ terraform {
     }
   }
 
-  provider_meta "google" {
+  provider_meta "google-beta" {
     module_name = "blueprints/terraform/terraform-google-cloud-run:v2/v0.24.0"
   }
 }
